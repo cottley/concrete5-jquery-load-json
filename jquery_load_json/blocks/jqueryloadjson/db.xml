@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btJqueryloadjson">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="divId" type="C" size="255" ></field>
+		<field name="jsonURL" type="C" size="255" ></field>
+		<field name="jsonURLType" type="C" size="255" ></field>    
+	</table>
+</schema>
