@@ -2,9 +2,9 @@
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class JqueryLoadJsonPackage extends Package {
+class jqueryloadjsonPackage extends Package {
 
-	protected $pkgHandle = 'Jquery_load_JSON';
+	protected $pkgHandle = 'jquery_load_json';
 	protected $appVersionRequired = '5.3.3'; 
 	protected $pkgVersion = '1.0';
 	
