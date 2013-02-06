@@ -7,6 +7,7 @@
 		</field>
 		<field name="divId" type="C" size="255" ></field>
 		<field name="jsonURL" type="C" size="255" ></field>
-		<field name="jsonURLType" type="C" size="255" ></field>    
+		<field name="jsonURLType" type="C" size="255" ></field>
+    <field name="jscontent" type="X2"> </field>
 	</table>
 </schema>

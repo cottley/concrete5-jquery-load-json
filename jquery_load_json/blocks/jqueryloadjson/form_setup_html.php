@@ -19,4 +19,10 @@
 </select> 
 <br/>
 </div>
+<div style="margin-top:8px;">
+
+<label for="jscontent"><?php echo t('Enter the javascript that should be executed automatically after data is loaded')?></label>
+ <?php echo $form->textarea("jscontent", $jscontent, array('rows' => 8, 'cols' => 50)); ?>
+<br/>
+</div>
 <div class="ccm-spacer" style="margin-bottom:16px;"></div>

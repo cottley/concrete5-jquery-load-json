@@ -22,6 +22,7 @@ $(function() {
     jsonp: "<?php echo $jsonURLType; ?>",
     success: function (data) {
       $("#<?php echo $divId; ?>").loadJSON(data);
+      <?php echo $jscontent; ?>
     }
   });            
 });

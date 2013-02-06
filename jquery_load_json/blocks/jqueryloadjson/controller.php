@@ -41,12 +41,14 @@
 			$this->set('divId', $this->divId);	
 			$this->set('jsonURL', $this->jsonURL); 
 			$this->set('jsonURLType', $this->jsonURLType);
+      $this->set('jscontent', $this->jscontent);            
 		}
 		
 		function save($data) { 
 			$args['divId'] = isset($data['divId']) ? trim($data['divId']) : '';
 			$args['jsonURL'] = isset($data['jsonURL']) ? trim($data['jsonURL']) : '';
 			$args['jsonURLType'] = isset($data['jsonURLType']) ? trim($data['jsonURLType']) : '';
+			$args['jscontent'] = isset($data['jscontent']) ? $data['jscontent'] : '';      
 			parent::save($args);
 		}
 		
