@@ -6,7 +6,7 @@
    for ($i=0; $i<count($matches[0]); $i++)
    {
      $vartoprocess = substr(substr($matches[0][$i], 0, strlen($matches[0][$i]) - 2), 2);
-     $valuetoreplace = isset($_GET[$vartoprocess]) ? $_GET[$vartoprocess] : ""; 
+     $valuetoreplace = isset($_GET[$vartoprocess]) ? urlencode($_GET[$vartoprocess]) : ""; 
      $url = str_replace($matches[0][$i], $valuetoreplace, $url);     
    }
  }
