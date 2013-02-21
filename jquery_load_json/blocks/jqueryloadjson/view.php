@@ -14,7 +14,7 @@
 if (!$isEditMode) {
 ?>
 <script language="javascript">
-$(function() {
+$(function customJSONLoader() {
   $.ajax({
     url: "<?php echo $url; ?>",
     dataType: "<?php echo $jsonURLType; ?>",
